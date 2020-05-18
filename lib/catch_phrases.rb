@@ -1,11 +1,12 @@
-$status = = "Thank You Mario! But Our Princess Is In Another Castle!"
+
 
 def mario
   phrase = "It's-a me, Mario!"
-  $status
   puts phrase
 end
 
 def toadstool
-  puts $status
+  status = "Thank You Mario! But Our Princess Is In Another Castle!"
+  puts status
 end
+
